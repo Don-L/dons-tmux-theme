@@ -18,6 +18,7 @@ The plugin also sets the colours used when selecting text:
 - Bash 3.2+
 - a [Nerd Font](https://www.nerdfonts.com/) installed and enabled in your terminal
 - *macOS* (if you want to enable the battery charge indicator; required for `pmset`, everything else in the plugin should be portable)
+- tmux window base index set to start at `1` instead of the default `0` (see Installation section)
 
 ## Installation
 
@@ -26,7 +27,11 @@ The plugin also sets the colours used when selecting text:
       ```conf
        set -g @plugin 'Don-L/dons-tmux-theme'
       ```
-3. Install the plugin with (by default) `<prefix>I`
+3. If necessary set base index to `1` in `tmux.conf` by adding the following line:
+      ```conf
+       set -g base-index 1
+      ```
+4. Install the plugin with (by default) `<prefix>I`
 
 ## Configuration
 
