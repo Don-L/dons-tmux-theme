@@ -9,7 +9,6 @@ tmux set -g status-left ''
 tmux set -g status-bg "$status_bg"
 
 source "${PLUGIN_DIR}/scripts/status/segment_builder.sh"
-source "${PLUGIN_DIR}/scripts/status/window-status/window-status.sh"
 source "${PLUGIN_DIR}/scripts/status/status-right/status-right.sh"
 source "${PLUGIN_DIR}/scripts/status/window-status/shared.sh"
 source "${PLUGIN_DIR}/scripts/status/window-status/window-status.sh"
