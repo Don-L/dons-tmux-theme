@@ -17,7 +17,7 @@ The plugin also sets the colours used when selecting text:
 - tmux 3.2 or newer (tested with 3.5a)
 - Bash 3.2+
 - a [Nerd Font](https://www.nerdfonts.com/) installed and enabled in your terminal
-- (if you want to enable the battery charge indicator) *macOS* (required for `pmset`, everything else in the plugin should be portable)
+- *macOS* (if you want to enable the battery charge indicator; required for `pmset`, everything else in the plugin should be portable)
 
 ## Installation
 
