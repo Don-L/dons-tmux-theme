@@ -10,7 +10,7 @@ build_battery_format() {
 
     local charge=(
         "$status_right_bg"
-        "$status_right_fg",
+        "$status_right_fg"
         "nobold"
         "BATTERY_CHARGE"
     )

@@ -10,7 +10,7 @@ build_time() {
 
     local time=(
         "$status_right_bg"
-        "$status_right_fg",
+        "$status_right_fg"
         "nobold"
         "%H:%M "
     )
